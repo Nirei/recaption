@@ -1,4 +1,4 @@
-VERSION := '0.1.0'
+VERSION := '1.0.0'
 
 test:
 	rspec
@@ -11,6 +11,6 @@ gem: lib/*.rb recaption.gemspec
 	gem build recaption.gemspec
 
 clean:
-	rm recaption-0.1.0.gem
+	rm recaption-*.gem
 
 .PHONY: clean
